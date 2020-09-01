@@ -1,0 +1,73 @@
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+#top{
+    text-align: center;
+}
+#services{
+  align-items: center;
+  position: absolute;
+  padding:10px;
+
+}
+.sider{
+  position: relative;
+  float: right;
+  margin: 0px;
+}
+.box{
+  background-color: gray;
+}
+@media  (min-width: 992px) {
+  .box{
+  margin: 3%;
+  border: 2px solid black;
+  float: left;
+  width: 26%;
+
+  }
+  
+}
+p{
+  padding: 6%;
+}
+#box1>h2{
+  background-color: blue;
+}
+#box2>h2{
+  background-color: red;
+}
+#box3>h2{
+  background-color: purple;
+}
+@media  (max-width: 991px) and (min-width: 768px) {
+  #box1,#box2{
+  margin: 4%;
+  border: 2px solid black;
+  float: left;
+  width:40%
+  }
+  #box3{
+    height: 20%;
+    border: 2px solid black;
+    float: left;
+    margin-left: 4%;
+    margin-right: 7%;
+  }
+  
+}
+@media  (max-width: 767px) {
+  .box{
+  margin: 3%;
+  border: 2px solid black;
+
+  }
+  
+}
+
+
+
+</style>
