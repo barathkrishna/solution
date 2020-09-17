@@ -37,11 +37,7 @@
 #navin{
   border: 1px solid black;
 }
-#navin:active{
-  background-color: azure;
-  border: 1px solid white;
-  border: 0px;
-}
+
 #navin:hover{
   background-color: aliceblue;
 }
@@ -95,6 +91,11 @@
   
 
   }
+ #navin:active{
+  background-color: azure;
+  border: 1px solid white;
+  border: 0px;
+}
   
   
 }
